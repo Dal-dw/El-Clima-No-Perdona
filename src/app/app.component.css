@@ -1,0 +1,17 @@
+.mobile-menu-hidden {
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Agrega estilos para mostrar el menú */
+.mobile-menu-visible {
+  transform: translateX(0);
+  visibility: visible;
+  transition: transform 0.2s ease-in-out;
+}
+.lg\:hidden.mobile-menu-visible {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}

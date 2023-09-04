@@ -1,0 +1,51 @@
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@keyframes bounceInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+  75% {
+    transform: translateX(10px);
+  }
+  90% {
+    transform: translateX(-5px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes bounceInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+  75% {
+    transform: translateX(10px);
+  }
+  90% {
+    transform: translateX(-5px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.cardRight {
+  animation: bounceInRight;
+  animation-duration: 2s;
+}
+.cardLeft {
+  animation: bounceInLeft;
+  animation-duration: 2s;
+}

@@ -1,0 +1,33 @@
+<div
+  class="component w-full mt-16 lg:mt-10 lg:px-40 justify-center container mx-auto"
+>
+  <form class="w-full max-w-sm ciudad-input">
+    <div
+      class="flex items-center border-b border-blue-500 py-2 ciudad-input-border"
+    >
+      <input
+        class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+        type="text"
+        placeholder="Selecciona Ciudad"
+        aria-label="City"
+        name="city"
+        [(ngModel)]="nuevaCiudad"
+      />
+      <button
+        class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 hover:border-teal-500 text-sm border-4 text-white py-1 px-2 rounded ciudad-input-button"
+        type="button"
+        (click)="actualizarCiudad()"
+      >
+        >
+      </button>
+    </div>
+  </form>
+
+  <app-fetch-card
+    *ngIf="primeraBusqueda"
+    [datosClimaCiudad]="datosClimaCiudad"
+    [loading]="loading"
+    [datosPronosticoCiudad]="datosPronosticoCiudad"
+  >
+  </app-fetch-card>
+</div>
