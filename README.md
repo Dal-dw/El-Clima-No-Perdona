@@ -8,6 +8,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## ´Features
 
+## Aplicación FETCH y AXIOS (En un componente obtiene los datos usando Fetch y en el otro usando Axios en el servicio)
+
 Clima de cualquier ciudad del mundo, se pueden buscar directamente (Ej: "Buenos Aires", o indicando el país "Santa Cruz, BO", o bien "Santa Cruz, Bolivia")
 Los datos se obtrienen de una API que brinda el clima actual por un lado y por otro de otra API el pronóstico de los proximos 5 días.
 Dependiendo del clima informado cambiarán los datos, íconos e imagen de fondo.
