@@ -8,9 +8,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## ´Features
 
-Clima de cualquier ciudad del mundo, se pueden buscar directamente (Ej: "Buenos Aires", o indicando el país "Santa Cruz, BO"
-Los datos se obtrienen de una API que brinda el clima actual por un lado y por otro un pronòstico de los proximos 5 días.
+Clima de cualquier ciudad del mundo, se pueden buscar directamente (Ej: "Buenos Aires", o indicando el país "Santa Cruz, BO", o bien "Santa Cruz, Bolivia")
+Los datos se obtrienen de una API que brinda el clima actual por un lado y por otro de otra API el pronóstico de los proximos 5 días.
 Dependiendo del clima informado cambiarán los datos, íconos e imagen de fondo.
 
-Hecha en Angular con Forms, Services, Routing, Interfaces, Pipes, animaciones, renderizado condicional y más...
+Hecha en Angular con Forms, Services, Routing, Interfaces, Pipes, animaciones, Lazu Loadinf, renderizado condicional y más...
 
